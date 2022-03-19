@@ -2395,8 +2395,15 @@ Grid.rowconfigure(root, 13,weight = 1)
 Grid.rowconfigure(root, 14,weight = 1)
 
 Grid.columnconfigure(root,0, weight = 1)
-Grid.columnconfigure(root,0, weight = 1)
-
-
+Grid.columnconfigure(root,1, weight = 1)
+Grid.columnconfigure(root,2, weight = 1)
+Grid.columnconfigure(root,3, weight = 1)
+Grid.columnconfigure(root,4, weight = 1)
+Grid.columnconfigure(root,5, weight = 1)
+Grid.columnconfigure(root,6, weight = 1)
+Grid.columnconfigure(root,7, weight = 1)
+Grid.columnconfigure(root,8, weight = 1)
+Grid.columnconfigure(root,9, weight = 1)
+Grid.columnconfigure(root,10, weight = 1)
 
 root.mainloop()
