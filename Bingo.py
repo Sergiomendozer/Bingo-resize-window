@@ -5,13 +5,13 @@ import random
 
 root = Tk()
 root.title("BINGO")
-root.geometry("1015x590")
+root.geometry("800x400")
 root.configure()
 
 class Window_Functions:
     # Center's window
-    app_width = 1015
-    app_height = 590
+    app_width = 800
+    app_height = 400
     screen_width = root.winfo_screenwidth()
     screen_height = root.winfo_screenheight()
     x_coordinate = (screen_width / 2) - (app_width / 2)
@@ -2378,5 +2378,25 @@ Bingo_button.grid(row=14, column=1, columnspan=5, sticky="nsew")
 New_game.grid(row=14, column=6, columnspan=3, sticky="nsew")
 pause.grid(row=14, column=10, columnspan=1, sticky="nsew")
 play.grid(row=14, column=9, columnspan=1, sticky="nsew")
+Grid.rowconfigure(root, 0,weight = 1)
+Grid.rowconfigure(root, 1,weight = 1)
+Grid.rowconfigure(root, 2,weight = 1)
+Grid.rowconfigure(root, 3,weight = 1)
+Grid.rowconfigure(root, 4,weight = 1)
+Grid.rowconfigure(root, 5,weight = 1)
+Grid.rowconfigure(root, 6,weight = 1)
+Grid.rowconfigure(root, 7,weight = 1)
+Grid.rowconfigure(root, 8,weight = 1)
+Grid.rowconfigure(root, 9,weight = 1)
+Grid.rowconfigure(root, 10,weight = 1)
+Grid.rowconfigure(root, 11,weight = 1)
+Grid.rowconfigure(root, 12,weight = 1)
+Grid.rowconfigure(root, 13,weight = 1)
+Grid.rowconfigure(root, 14,weight = 1)
+
+Grid.columnconfigure(root,0, weight = 1)
+Grid.columnconfigure(root,0, weight = 1)
+
+
 
 root.mainloop()
